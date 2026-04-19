@@ -420,10 +420,9 @@ hr.rule {
 }
 .timeline-current {
   background: var(--cream-2);
-  margin-left: -1rem;
-  margin-right: -1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  box-shadow: inset 3px 0 0 var(--brick);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 .timeline-current .timeline-where::after {
   content: " — Current";
